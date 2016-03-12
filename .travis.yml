@@ -8,5 +8,5 @@ notifications:
   email:
     recipients:
       - jonas_cheng@trend.com.tw
-    on_success: never
+    on_success: always
     on_failure: always
