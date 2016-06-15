@@ -185,7 +185,7 @@ def expo(init_value=1, base=2, max_value=None):
         a = init_value * base ** n
         if max_value is None or a < max_value:
             yield a
-            n += 1
+            n += 2
         else:
             yield max_value
 
